@@ -18,6 +18,390 @@ export type PortfolioCategory = {
 };
 
 export const categories: PortfolioCategory[] = [
+    // Packaging
+    {
+        name: "Packaging Design",
+        slug: "packaging",
+        description:
+            "Packaging designs crafted to stand out on shelves while communicating product value with clarity and character. Each concept balances visual appeal, brand identity, and real-world usability.",
+        items: [
+            {
+                title: "Sprite - Label Redesign Concept",
+                description: "Refreshing, reimagined.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/packaging/sprite/sprite_1.jpg",
+                        alt: "Sprite Packaging 1",
+                    },
+                    {
+                        type: "image",
+                        src: "/images/packaging/sprite/sprite_2.jpg",
+                        alt: "Sprite Packaging 2 ",
+                    },
+                    {
+                        type: "image",
+                        src: "/images/packaging/sprite/sprite_3.jpg",
+                        alt: "Sprite Packaging 3",
+                    },
+                    {
+                        type: "image",
+                        src: "/images/packaging/sprite/sprite_4.jpg",
+                        alt: "Sprite Packaging 4",
+                    },
+                    {
+                        type: "image",
+                        src: "/images/packaging/sprite/sprite_5.jpg",
+                        alt: "Sprite Packaging 5",
+                    },
+                    {
+                        type: "image",
+                        src: "/images/packaging/sprite/sprite_6.jpg",
+                        alt: "Sprite Packaging 6",
+                    },
+                ],
+            },
+            {
+                title: "Kyron Premimum Brandy - Limited Edition Packaging ",
+                description: "Crafted to feel premium at first glance.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/packaging/packaging_3.jpg",
+                        alt: "Packaging 3",
+                    },
+                ],
+            },
+            {
+                title: "Thums Up Durga Puja Packaging Design",
+                description: "Bold taste. Bolder presence.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/packaging/packaging_2.jpg",
+                        alt: "Packaging 2",
+                    },
+                ],
+            },
+            {
+                title: "Celebration Blue - Holi Packaging Series",
+                description: "Designed to bring colors to the shelf.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/packaging/packaging_6.png",
+                        alt: "Packaging 6",
+                    },
+                ],
+            },
+            {
+                title: "Storm - Product Packaging Design",
+                description: "Built tough. Designed to stand out.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/packaging/packaging_4.jpg",
+                        alt: "Packaging 4",
+                    },
+                ],
+            },
+            {
+                title: "Celebration Blue - Cricket Special Packaging",
+                description: "Consistency across variety.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/packaging/packaging_8.png",
+                        alt: "Packaging 8",
+                    },
+                ],
+            },
+            {
+                title: "Puree - Fruit Beverage Packaging",
+                description: "Freshness you can see, flavour you can trust.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/packaging/packaging_5.jpg",
+                        alt: "Packaging 5",
+                    },
+                ],
+            },
+            {
+                title: "Kyron Premium Brandy - Regular Packaging",
+                description: "Premium, redefined through simplicity.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/packaging/packaging_7.png",
+                        alt: "Packaging 7",
+                    },
+                ],
+            },
+            {
+                title: "Reliance Masala Packaging Design",
+                description: "Flavours you can see before you taste.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/packaging/packaging_1.jpg",
+                        alt: "Packaging 1",
+                    },
+                ],
+            },
+
+        ],
+    },
+    // Logo Design
+    {
+        name: "Logo Design",
+        slug: "logo-design",
+        description:
+            "Spatial and display concepts created to attract attention and strengthen brand presence.",
+        items: [
+            {
+                title: "Logo Design 1",
+                description: "Placeholder description for this logo design.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_1.jpg",
+                        alt: "Brand Application 1",
+                    },
+                ],
+            },
+            {
+                title: "Logo Design 2",
+                description: "Placeholder description for this logo design.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_2.jpg",
+                        alt: "Brand Application 2",
+                    },
+                ],
+            },
+            {
+                title: "Logo Design 3",
+                description: "Placeholder description for this logo design.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_3.jpg",
+                        alt: "Brand Application 3",
+                    },
+                ],
+            },
+            {
+                title: "Logo Design 4",
+                description: "Placeholder description for this logo design.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_4.jpg",
+                        alt: "Brand Application 4",
+                    },
+                ],
+            },
+            {
+                title: "Logo Design 5",
+                description: "Placeholder description for this logo design.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_5.jpg",
+                        alt: "Brand Application 5",
+                    },
+                ],
+            },
+            {
+                title: "Logo Design 6",
+                description: "Placeholder description for this logo design.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_6.jpg",
+                        alt: "Brand Application 6",
+                    },
+                ],
+            },
+            {
+                title: "Logo Design 7",
+                description: "Placeholder description for this logo design.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_7.jpg",
+                        alt: "Brand Application 7",
+                    },
+                ],
+            },
+            {
+                title: "Logo Design 8",
+                description: "Placeholder description for this logo design.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_8.jpg",
+                        alt: "Brand Application 8",
+                    },
+                ],
+            },
+            {
+                title: "Logo Design 9",
+                description: "Placeholder description for this logo design.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_9.jpg",
+                        alt: "Brand Application 9",
+                    },
+                ],
+            },
+            {
+                title: "Logo Design 10",
+                description: "Placeholder description for this logo design.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_10.jpg",
+                        alt: "Brand Application 10",
+                    },
+                ],
+            },
+            {
+                title: "Logo Design 11",
+                description: "Placeholder description for this logo design.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_11.jpg",
+                        alt: "Brand Application 11",
+                    },
+                ],
+            },
+            {
+                title: "Logo Design 12",
+                description: "Placeholder description for this logo design.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_12.jpg",
+                        alt: "Brand Application 12",
+                    },
+                ],
+            },
+        ],
+    },
+    // Brand Applications
+    {
+        name: "Brand Applications",
+        slug: "brand-applications",
+        description:
+            "Spatial and display concepts created to attract attention and strengthen brand presence.",
+        items: [
+            {
+                title: "Brand Application 1",
+                description: "Placeholder description for this brand application.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_1.jpg",
+                        alt: "Brand Application 1",
+                    },
+                ],
+            },
+            {
+                title: "Brand Application 2",
+                description: "Placeholder description for this brand application.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_2.jpg",
+                        alt: "Brand Application 2",
+                    },
+                ],
+            },
+            {
+                title: "Brand Application 3",
+                description: "Placeholder description for this brand application.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_3.jpg",
+                        alt: "Brand Application 3",
+                    },
+                ],
+            },
+            {
+                title: "Brand Application 4",
+                description: "Placeholder description for this brand application.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_4.jpg",
+                        alt: "Brand Application 4",
+                    },
+                ],
+            },
+            {
+                title: "Brand Application 5",
+                description: "Placeholder description for this brand application.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_5.jpg",
+                        alt: "Brand Application 5",
+                    },
+                ],
+            },
+            {
+                title: "Brand Application 6",
+                description: "Placeholder description for this brand application.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_6.jpg",
+                        alt: "Brand Application 6",
+                    },
+                ],
+            },
+            {
+                title: "Brand Application 7",
+                description: "Placeholder description for this brand application.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_7.jpg",
+                        alt: "Brand Application 7",
+                    },
+                ],
+            },
+            {
+                title: "Brand Application 8",
+                description: "Placeholder description for this brand application.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_8.jpg",
+                        alt: "Brand Application 8",
+                    },
+                ],
+            },
+            {
+                title: "Brand Application 9",
+                description: "Placeholder description for this brand application.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_9.jpg",
+                        alt: "Brand Application 9",
+                    },
+                ],
+            },
+        ],
+    },
+    // Ad Campaigns
     {
         name: "Ad Campaigns",
         slug: "ad-campaigns",
@@ -205,7 +589,7 @@ export const categories: PortfolioCategory[] = [
 
         ],
     },
-
+    // Social Media
     {
         name: "Social Media",
         slug: "social-media",
@@ -313,426 +697,61 @@ export const categories: PortfolioCategory[] = [
             },
         ],
     },
+    // UX Design
     {
-        name: "Packaging",
-        slug: "packaging",
-        description:
-            "Packaging concepts created to combine shelf impact, clarity, and product storytelling.",
-        items: [
-            {
-                title: "Packaging 1",
-                description: "Placeholder description for this packaging piece.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/packaging/packaging_1.jpg",
-                        alt: "Packaging 1",
-                    },
-                ],
-            },
-            {
-                title: "Packaging 2",
-                description: "Placeholder description for this packaging piece.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/packaging/packaging_2.jpg",
-                        alt: "Packaging 2",
-                    },
-                ],
-            },
-            {
-                title: "Packaging 3",
-                description: "Placeholder description for this packaging piece.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/packaging/packaging_3.jpg",
-                        alt: "Packaging 3",
-                    },
-                ],
-            },
-            {
-                title: "Packaging 4",
-                description: "Placeholder description for this packaging piece.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/packaging/packaging_4.jpg",
-                        alt: "Packaging 4",
-                    },
-                ],
-            },
-            {
-                title: "Packaging 5",
-                description: "Placeholder description for this packaging piece.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/packaging/packaging_5.jpg",
-                        alt: "Packaging 5",
-                    },
-                ],
-            },
-            {
-                title: "Packaging 6",
-                description: "Placeholder description for this packaging piece.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/packaging/packaging_6.png",
-                        alt: "Packaging 6",
-                    },
-                ],
-            },
-            {
-                title: "Packaging 7",
-                description: "Placeholder description for this packaging piece.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/packaging/packaging_7.png",
-                        alt: "Packaging 7",
-                    },
-                ],
-            },
-            {
-                title: "Packaging 8",
-                description: "Placeholder description for this packaging piece.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/packaging/packaging_8.png",
-                        alt: "Packaging 8",
-                    },
-                ],
-            },
-            {
-                title: "Sprite Packaging",
-                description: "Placeholder description for this packaging piece.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/packaging/sprite/sprite_1.jpg",
-                        alt: "Sprite Packaging 1",
-                    },
-                    {
-                        type: "image",
-                        src: "/images/packaging/sprite/sprite_2.jpg",
-                        alt: "Sprite Packaging 2 ",
-                    },
-                    {
-                        type: "image",
-                        src: "/images/packaging/sprite/sprite_3.jpg",
-                        alt: "Sprite Packaging 3",
-                    },
-                    {
-                        type: "image",
-                        src: "/images/packaging/sprite/sprite_4.jpg",
-                        alt: "Sprite Packaging 4",
-                    },
-                    {
-                        type: "image",
-                        src: "/images/packaging/sprite/sprite_5.jpg",
-                        alt: "Sprite Packaging 5",
-                    },
-                    {
-                        type: "image",
-                        src: "/images/packaging/sprite/sprite_6.jpg",
-                        alt: "Sprite Packaging 6",
-                    },
-                ],
-            },
-        ],
-    },
-    {
-        name: "Brand Applications",
-        slug: "brand-applications",
+        name: "UX Design   ",
+        slug: "ux-design",
         description:
             "Spatial and display concepts created to attract attention and strengthen brand presence.",
         items: [
             {
-                title: "Brand Application 1",
-                description: "Placeholder description for this brand application.",
+                title: "UX Design 1",
+                description: "Placeholder description for this UX Design.",
                 media: [
                     {
                         type: "image",
-                        src: "/images/brand_applications/brand_applications_1.jpg",
-                        alt: "Brand Application 1",
+                        src: "/images/ux_design/ux_design_1.jpg",
+                        alt: "UX Design 1",
                     },
                 ],
             },
             {
-                title: "Brand Application 2",
-                description: "Placeholder description for this brand application.",
+                title: "UX Design 2",
+                description: "Placeholder description for this UX Design.",
                 media: [
                     {
                         type: "image",
-                        src: "/images/brand_applications/brand_applications_2.jpg",
-                        alt: "Brand Application 2",
+                        src: "/images/ux_design/ux_design_2.jpg",
+                        alt: "UX Design 2",
                     },
                 ],
             },
             {
-                title: "Brand Application 3",
-                description: "Placeholder description for this brand application.",
+                title: "UX Design 3",
+                description: "Placeholder description for this UX Design.",
                 media: [
                     {
                         type: "image",
-                        src: "/images/brand_applications/brand_applications_3.jpg",
-                        alt: "Brand Application 3",
+                        src: "/images/ux_design/ux_design_3.jpg",
+                        alt: "UX Design 3",
                     },
                 ],
             },
+
             {
-                title: "Brand Application 4",
-                description: "Placeholder description for this brand application.",
+                title: "UX Design 3",
+                description: "Placeholder description for this UX Design.",
                 media: [
                     {
                         type: "image",
-                        src: "/images/brand_applications/brand_applications_4.jpg",
-                        alt: "Brand Application 4",
-                    },
-                ],
-            },
-            {
-                title: "Brand Application 5",
-                description: "Placeholder description for this brand application.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/brand_applications/brand_applications_5.jpg",
-                        alt: "Brand Application 5",
-                    },
-                ],
-            },
-            {
-                title: "Brand Application 6",
-                description: "Placeholder description for this brand application.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/brand_applications/brand_applications_6.jpg",
-                        alt: "Brand Application 6",
-                    },
-                ],
-            },
-            {
-                title: "Brand Application 7",
-                description: "Placeholder description for this brand application.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/brand_applications/brand_applications_7.jpg",
-                        alt: "Brand Application 7",
-                    },
-                ],
-            },
-            {
-                title: "Brand Application 8",
-                description: "Placeholder description for this brand application.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/brand_applications/brand_applications_8.jpg",
-                        alt: "Brand Application 8",
-                    },
-                ],
-            },
-            {
-                title: "Brand Application 9",
-                description: "Placeholder description for this brand application.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/brand_applications/brand_applications_9.jpg",
-                        alt: "Brand Application 9",
+                        src: "/images/ux_design/ux_design_3.jpg",
+                        alt: "UX Design 3",
                     },
                 ],
             },
         ],
     },
-    {
-        name: "Logo Design",
-        slug: "logo-design",
-        description:
-            "Spatial and display concepts created to attract attention and strengthen brand presence.",
-        items: [
-            {
-                title: "Logo Design 1",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_1.jpg",
-                        alt: "Brand Application 1",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 2",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_2.jpg",
-                        alt: "Brand Application 2",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 3",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_3.jpg",
-                        alt: "Brand Application 3",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 4",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_4.jpg",
-                        alt: "Brand Application 4",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 5",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_5.jpg",
-                        alt: "Brand Application 5",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 6",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_6.jpg",
-                        alt: "Brand Application 6",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 7",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_7.jpg",
-                        alt: "Brand Application 7",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 8",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_8.jpg",
-                        alt: "Brand Application 8",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 9",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_9.jpg",
-                        alt: "Brand Application 9",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 10",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_10.jpg",
-                        alt: "Brand Application 10",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 11",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_11.jpg",
-                        alt: "Brand Application 11",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 12",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_12.jpg",
-                        alt: "Brand Application 12",
-                    },
-                ],
-            },
-        ],
-    },
-    {
-        name: "Newspaper Ads   ",
-        slug: "newspaper-ads",
-        description:
-            "Spatial and display concepts created to attract attention and strengthen brand presence.",
-        items: [
-            {
-                title: "Newspaper Ad 1",
-                description: "Placeholder description for this newspaper ad.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/newspaper_ads/newspaper_ads_1.jpg",
-                        alt: "Newspaper Ad 1",
-                    },
-                ],
-            },
-            {
-                title: "Newspaper Ad 2",
-                description: "Placeholder description for this newspaper ad.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/newspaper_ads/newspaper_ads_2.jpg",
-                        alt: "Newspaper Ad 2",
-                    },
-                ],
-            },
-            {
-                title: "Newspaper Ad 3",
-                description: "Placeholder description for this newspaper ad.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/newspaper_ads/newspaper_ads_3.jpg",
-                        alt: "Newspaper Ad 3",
-                    },
-                ],
-            },
-        ],
-    },
+    // Emailers
     {
         name: "Emailers",
         slug: "emailers",
@@ -802,6 +821,48 @@ export const categories: PortfolioCategory[] = [
                         type: "image",
                         src: "/images/emailers/emailers_6.jpg",
                         alt: "Emailer 6",
+                    },
+                ],
+            },
+        ],
+    },
+    // Newspaper Ads
+    {
+        name: "Newspaper Ads   ",
+        slug: "newspaper-ads",
+        description:
+            "Spatial and display concepts created to attract attention and strengthen brand presence.",
+        items: [
+            {
+                title: "Newspaper Ad 1",
+                description: "Placeholder description for this newspaper ad.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/newspaper_ads/newspaper_ads_1.jpg",
+                        alt: "Newspaper Ad 1",
+                    },
+                ],
+            },
+            {
+                title: "Newspaper Ad 2",
+                description: "Placeholder description for this newspaper ad.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/newspaper_ads/newspaper_ads_2.jpg",
+                        alt: "Newspaper Ad 2",
+                    },
+                ],
+            },
+            {
+                title: "Newspaper Ad 3",
+                description: "Placeholder description for this newspaper ad.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/newspaper_ads/newspaper_ads_3.jpg",
+                        alt: "Newspaper Ad 3",
                     },
                 ],
             },

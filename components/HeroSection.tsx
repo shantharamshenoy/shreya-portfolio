@@ -17,7 +17,9 @@ export default function HeroSection() {
           </p>
 
           <button className="mt-8 rounded-full bg-[#D4AF37] px-6 py-3 font-semibold text-[#2E1065] transition hover:bg-[#E6C76A] hover:-translate-y-0.5">
+            <a href="#work">
             Explore Work
+          </a>
           </button>
         </div>
 

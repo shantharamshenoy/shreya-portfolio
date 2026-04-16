@@ -66,7 +66,6 @@ export default function ImageCarousel({
       {hasMultiple && (
         <>
           <button
-            // type="button"
             onClick={(e) => {
               e.stopPropagation();
               goPrev();
@@ -77,7 +76,6 @@ export default function ImageCarousel({
           </button>
 
           <button
-            // type="button"
             onClick={(e) => {
               e.stopPropagation();
               goNext();
