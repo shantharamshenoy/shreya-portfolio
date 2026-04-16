@@ -82,12 +82,12 @@ export default function CategoryAccordion() {
                   </p>
                 </div>
 
-                <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-2">
                   {category.items.map((item, i) => {
                     // const previewImage = item.images[0];
 
                     return (
-                      <button
+                      <div
                         key={`${category.slug}-${i}`}
                         // type="button"
                         onClick={() => setSelectedItem(item)}
@@ -97,12 +97,12 @@ export default function CategoryAccordion() {
                           <ImageCarousel
                             media={item.media}
                             altPrefix={item.title}
-                            className="flex h-72 items-center justify-center"
+                            className="flex h-42 items-center justify-center"
                             imageClassName="h-full w-full object-contain"
                           />
                         </div>
 
-                        <div className="space-y-2 px-4 py-4">
+                        <div className="space-y-1 px-4 py-4">
                           <p className="text-sm font-semibold text-[#2E1065]">
                             {item.title}
                           </p>
@@ -117,7 +117,7 @@ export default function CategoryAccordion() {
                             </p>
                           )}
                         </div>
-                      </button>
+                      </div>
                     );
                   })}
                 </div>

@@ -31,32 +31,32 @@ export const categories: PortfolioCategory[] = [
                 media: [
                     {
                         type: "image",
-                        src: "/images/packaging/sprite/sprite_1.jpg",
+                        src: "/images/packaging/sprite/sprite_1.png",
                         alt: "Sprite Packaging 1",
                     },
                     {
                         type: "image",
-                        src: "/images/packaging/sprite/sprite_2.jpg",
+                        src: "/images/packaging/sprite/sprite_2.png",
                         alt: "Sprite Packaging 2 ",
                     },
                     {
                         type: "image",
-                        src: "/images/packaging/sprite/sprite_3.jpg",
+                        src: "/images/packaging/sprite/sprite_3.png",
                         alt: "Sprite Packaging 3",
                     },
                     {
                         type: "image",
-                        src: "/images/packaging/sprite/sprite_4.jpg",
+                        src: "/images/packaging/sprite/sprite_4.png",
                         alt: "Sprite Packaging 4",
                     },
                     {
                         type: "image",
-                        src: "/images/packaging/sprite/sprite_5.jpg",
+                        src: "/images/packaging/sprite/sprite_5.png",
                         alt: "Sprite Packaging 5",
                     },
                     {
                         type: "image",
-                        src: "/images/packaging/sprite/sprite_6.jpg",
+                        src: "/images/packaging/sprite/sprite_6.png",
                         alt: "Sprite Packaging 6",
                     },
                 ],
@@ -157,22 +157,11 @@ export const categories: PortfolioCategory[] = [
         name: "Logo Design",
         slug: "logo-design",
         description:
-            "Spatial and display concepts created to attract attention and strengthen brand presence.",
+            "Logo designs created to build distinct and memorable brand identities - focused on clarity, versatility, and strong visual recognition across applications.",
         items: [
             {
-                title: "Logo Design 1",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_1.jpg",
-                        alt: "Brand Application 1",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 2",
-                description: "Placeholder description for this logo design.",
+                title: "Biopoint - Corporate Identity",
+                description: "Where science meets growth.",
                 media: [
                     {
                         type: "image",
@@ -182,8 +171,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Logo Design 3",
-                description: "Placeholder description for this logo design.",
+                title: "Gumball - Playful Brand Identity",
+                description: "Fun, at first glance.",
                 media: [
                     {
                         type: "image",
@@ -193,8 +182,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Logo Design 4",
-                description: "Placeholder description for this logo design.",
+                title: "Asha, Hope Amananki - Cultural Identity Design",
+                description: "Rooted in tradition, designed with purpose.",
                 media: [
                     {
                         type: "image",
@@ -204,8 +193,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Logo Design 5",
-                description: "Placeholder description for this logo design.",
+                title: "DTT - Travel Brand Identity",
+                description: "Designed to move with the brand.",
                 media: [
                     {
                         type: "image",
@@ -215,8 +204,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Logo Design 6",
-                description: "Placeholder description for this logo design.",
+                title: "Cleverbit -  Tech Identity",
+                description: "Smart design for smarter solutions.",
                 media: [
                     {
                         type: "image",
@@ -226,8 +215,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Logo Design 7",
-                description: "Placeholder description for this logo design.",
+                title: "Aarudhi - Organic Brand Identity",
+                description: "Growing with purpose",
                 media: [
                     {
                         type: "image",
@@ -237,8 +226,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Logo Design 8",
-                description: "Placeholder description for this logo design.",
+                title: "Hruday Sparsh - Cultural Logotype",
+                description: "Where emotion meets expression",
                 media: [
                     {
                         type: "image",
@@ -248,19 +237,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Logo Design 9",
-                description: "Placeholder description for this logo design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/logo_design/logo_design_9.jpg",
-                        alt: "Brand Application 9",
-                    },
-                ],
-            },
-            {
-                title: "Logo Design 10",
-                description: "Placeholder description for this logo design.",
+                title: "Chooberry - Playful Brand Identity",
+                description: "Fresh, fun, and full of flavour.",
                 media: [
                     {
                         type: "image",
@@ -270,8 +248,19 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Logo Design 11",
-                description: "Placeholder description for this logo design.",
+                title: "Daisy's Nursing - Educational Identity",
+                description: "Care, guided by knowledge.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_9.jpg",
+                        alt: "Brand Application 9",
+                    },
+                ],
+            },
+            {
+                title: "WeCare - CSR Initiative Identity",
+                description: "Designing for impact beyond business.",
                 media: [
                     {
                         type: "image",
@@ -281,13 +270,24 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Logo Design 12",
-                description: "Placeholder description for this logo design.",
+                title: "Reeth Couture - Luxury Brand Identity",
+                description: "Elegance, intricately defined.",
                 media: [
                     {
                         type: "image",
                         src: "/images/logo_design/logo_design_12.jpg",
                         alt: "Brand Application 12",
+                    },
+                ],
+            },
+            {
+                title: "Divine Slices - Brand Identity",
+                description: "A taste of elegance in every curve.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/logo_design/logo_design_1.jpg",
+                        alt: "Brand Application 1",
                     },
                 ],
             },
@@ -298,11 +298,11 @@ export const categories: PortfolioCategory[] = [
         name: "Brand Applications",
         slug: "brand-applications",
         description:
-            "Spatial and display concepts created to attract attention and strengthen brand presence.",
+            "Translating brand identity into real-world experiences - across print, packaging, and environmental touch points to create a cohesive and recognizable presence.",
         items: [
             {
-                title: "Brand Application 1",
-                description: "Placeholder description for this brand application.",
+                title: "barro - Menu & Print Collateral",
+                description: "Designed for quick decisions.",
                 media: [
                     {
                         type: "image",
@@ -312,20 +312,14 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Brand Application 2",
-                description: "Placeholder description for this brand application.",
+                title: "Carry the Message - Awareness Bag Design",
+                description: "Turning everyday objects into powerful messages.",
                 media: [
                     {
                         type: "image",
                         src: "/images/brand_applications/brand_applications_2.jpg",
                         alt: "Brand Application 2",
                     },
-                ],
-            },
-            {
-                title: "Brand Application 3",
-                description: "Placeholder description for this brand application.",
-                media: [
                     {
                         type: "image",
                         src: "/images/brand_applications/brand_applications_3.jpg",
@@ -334,20 +328,14 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Brand Application 4",
-                description: "Placeholder description for this brand application.",
+                title: "Fress - Transit Branding",
+                description: "Branding that moves with you.",
                 media: [
                     {
                         type: "image",
                         src: "/images/brand_applications/brand_applications_4.jpg",
                         alt: "Brand Application 4",
                     },
-                ],
-            },
-            {
-                title: "Brand Application 5",
-                description: "Placeholder description for this brand application.",
-                media: [
                     {
                         type: "image",
                         src: "/images/brand_applications/brand_applications_5.jpg",
@@ -356,8 +344,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Brand Application 6",
-                description: "Placeholder description for this brand application.",
+                title: "Agrosia - Stationery System",
+                description: "Simplicity that communicates clearly.",
                 media: [
                     {
                         type: "image",
@@ -367,8 +355,44 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Brand Application 7",
-                description: "Placeholder description for this brand application.",
+                title: "Booth Design",
+                description: "Designed to attract, engage, and be remembered.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_15.jpg",
+                        alt: "Brand Application 7",
+                    },
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_10.jpg",
+                        alt: "Brand Application 7",
+                    },
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_11.jpg",
+                        alt: "Brand Application 7",
+                    },
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_12.jpg",
+                        alt: "Brand Application 7",
+                    },
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_13.jpg",
+                        alt: "Brand Application 7",
+                    },
+                    {
+                        type: "image",
+                        src: "/images/brand_applications/brand_applications_14.jpg",
+                        alt: "Brand Application 7",
+                    },
+                ],
+            },
+            {
+                title: "Kolors - Print Collateral Design",
+                description: "Refined visuals with a focus on clarity.",
                 media: [
                     {
                         type: "image",
@@ -378,20 +402,14 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Brand Application 8",
-                description: "Placeholder description for this brand application.",
+                title: "Maaza - Festive Campaign Visual",
+                description: "Designed for culture, crafted for connection.",
                 media: [
                     {
                         type: "image",
                         src: "/images/brand_applications/brand_applications_8.jpg",
                         alt: "Brand Application 8",
                     },
-                ],
-            },
-            {
-                title: "Brand Application 9",
-                description: "Placeholder description for this brand application.",
-                media: [
                     {
                         type: "image",
                         src: "/images/brand_applications/brand_applications_9.jpg",
@@ -406,11 +424,11 @@ export const categories: PortfolioCategory[] = [
         name: "Ad Campaigns",
         slug: "ad-campaigns",
         description:
-            "Campaign-led visual concepts created for promotional communication across print and digital formats.",
+            "Advertising campaigns built on ideas, designed to capture attention, communicate value, and create meaningful audience connections.",
         items: [
             {
-                title: "Ad Campaign 1",
-                description: "Placeholder description for this ad campaign.",
+                title: "Competing with Giants - Awareness Campaign",
+                description: "Turning business pain points into powerful entry points.",
                 media: [
                     {
                         type: "image",
@@ -435,8 +453,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Ad Campaign 2",
-                description: "Placeholder description for this ad campaign.",
+                title: "B2C Commerce Expansion - Digital Campaign",
+                description: "Simplifying digital growth through visual clarity.",
                 media: [
                     {
                         type: "image",
@@ -461,8 +479,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Ad Campaign 3",
-                description: "Placeholder description for this ad campaign.",
+                title: "Sleep & Temperature - Awareness Campaign",
+                description: "Designing awareness through everyday experiences.",
                 media: [
                     {
                         type: "image",
@@ -492,8 +510,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Ad Campaign 4",
-                description: "Placeholder description for this ad campaign.",
+                title: "Simplifying Operations - Product Awareness Campaign",
+                description: "Turning operational complexity into clarity.",
                 media: [
                     {
                         type: "image",
@@ -513,8 +531,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Ad Campaign 5",
-                description: "Placeholder description for this ad campaign.",
+                title: "Driving the Digital Economy - Webinar Campaign",
+                description: "Data-driven design that converts attention into action.",
                 media: [
                     {
                         type: "image",
@@ -539,34 +557,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Ad Campaign 5",
-                description: "Placeholder description for this ad campaign.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/ad_campaigns/this/1.png",
-                        alt: "Ad campaign design 1",
-                    },
-                    {
-                        type: "image",
-                        src: "/images/ad_campaigns/this/2.png",
-                        alt: "Ad campaign design 2",
-                    },
-                    {
-                        type: "image",
-                        src: "/images/ad_campaigns/this/3.png",
-                        alt: "Ad campaign design 3",
-                    },
-                    {
-                        type: "image",
-                        src: "/images/ad_campaigns/this/4.png",
-                        alt: "Ad campaign design 4",
-                    }
-                ],
-            },
-            {
-                title: "Ad Campaign 5",
-                description: "Placeholder description for this ad campaign.",
+                title: "Everyday Strength - Women's Day Campaign 1",
+                description: "Celebrating the strength in the everyday.",
                 media: [
                     {
                         type: "video",
@@ -576,8 +568,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Ad Campaign 5",
-                description: "Placeholder description for this ad campaign.",
+                title: "Everyday Strength - Women's Day Campaign 2",
+                description: "Celebrating the strength in the everyday.",
                 media: [
                     {
                         type: "video",
@@ -594,11 +586,11 @@ export const categories: PortfolioCategory[] = [
         name: "Social Media",
         slug: "social-media",
         description:
-            "Spatial and display concepts created to attract attention and strengthen brand presence.",
+            "Strategically designed social media creatives crafted to capture attention, communicate quickly, and drive engagement across platforms. Each piece combines strong visuals with clear messaging to maximize impact in fast-scrolling digital environments",
         items: [
             {
-                title: "Social media post 1",
-                description: "Placeholder description for this social media post.",
+                title: "Fress.store - Delivery Announcement",
+                description: "Convenience, delivered to your doorstep.",
                 media: [
                     {
                         type: "image",
@@ -608,8 +600,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Social media post 2",
-                description: "Placeholder description for this social media post.",
+                title: "Vendor Growth - Onboarding Campaign",
+                description: "Grow faster, scale smarter.",
                 media: [
                     {
                         type: "image",
@@ -619,8 +611,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Social media post 3",
-                description: "Placeholder description for this social media post.",
+                title: "Future of Commerce - Brand Campaign",
+                description: "Step into the future of digital commerce.",
                 media: [
                     {
                         type: "image",
@@ -630,8 +622,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Social media post 4",
-                description: "Placeholder description for this social media post.",
+                title: "Marketplace Launch - Webinar Campaign",
+                description: "From launch to results, learn the journey.",
                 media: [
                     {
                         type: "image",
@@ -641,8 +633,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Social media post 5",
-                description: "Placeholder description for this social media post.",
+                title: "Scaling Enterprises - GCC Awareness Post",
+                description: "Built for scale. Designed for impact.",
                 media: [
                     {
                         type: "image",
@@ -652,8 +644,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Social media post 6",
-                description: "Placeholder description for this social media post.",
+                title: "Hospitality Marketplace - Webinar Campaign",
+                description: "Insights from experts, built for impact.",
                 media: [
                     {
                         type: "image",
@@ -663,8 +655,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Social media post 7",
-                description: "Placeholder description for this social media post.",
+                title: "Breaking Barriers - API Strategy Post",
+                description: "Simplifying complexity, one solution at a time.",
                 media: [
                     {
                         type: "image",
@@ -674,8 +666,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Social media post 8",
-                description: "Placeholder description for this social media post.",
+                title: "SME Challenges - Awareness Campaign",
+                description: "Understanding challenges, enabling solutions.",
                 media: [
                     {
                         type: "image",
@@ -685,8 +677,8 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Social media post 9",
-                description: "Placeholder description for this social media post.",
+                title: "Talent Exhibition - Event Promotion Post",
+                description: "Where creativity takes the stage.",
                 media: [
                     {
                         type: "image",
@@ -698,80 +690,69 @@ export const categories: PortfolioCategory[] = [
         ],
     },
     // UX Design
-    {
-        name: "UX Design   ",
-        slug: "ux-design",
-        description:
-            "Spatial and display concepts created to attract attention and strengthen brand presence.",
-        items: [
-            {
-                title: "UX Design 1",
-                description: "Placeholder description for this UX Design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/ux_design/ux_design_1.jpg",
-                        alt: "UX Design 1",
-                    },
-                ],
-            },
-            {
-                title: "UX Design 2",
-                description: "Placeholder description for this UX Design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/ux_design/ux_design_2.jpg",
-                        alt: "UX Design 2",
-                    },
-                ],
-            },
-            {
-                title: "UX Design 3",
-                description: "Placeholder description for this UX Design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/ux_design/ux_design_3.jpg",
-                        alt: "UX Design 3",
-                    },
-                ],
-            },
+    // {
+    //     name: "UX Design   ",
+    //     slug: "ux-design",
+    //     description:
+    //         "Spatial and display concepts created to attract attention and strengthen brand presence.",
+    //     items: [
+    //         {
+    //             title: "UX Design 1",
+    //             description: "Placeholder description for this UX Design.",
+    //             media: [
+    //                 {
+    //                     type: "image",
+    //                     src: "/images/ux_design/ux_design_1.jpg",
+    //                     alt: "UX Design 1",
+    //                 },
+    //             ],
+    //         },
+    //         {
+    //             title: "UX Design 2",
+    //             description: "Placeholder description for this UX Design.",
+    //             media: [
+    //                 {
+    //                     type: "image",
+    //                     src: "/images/ux_design/ux_design_2.jpg",
+    //                     alt: "UX Design 2",
+    //                 },
+    //             ],
+    //         },
+    //         {
+    //             title: "UX Design 3",
+    //             description: "Placeholder description for this UX Design.",
+    //             media: [
+    //                 {
+    //                     type: "image",
+    //                     src: "/images/ux_design/ux_design_3.jpg",
+    //                     alt: "UX Design 3",
+    //                 },
+    //             ],
+    //         },
 
-            {
-                title: "UX Design 3",
-                description: "Placeholder description for this UX Design.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/ux_design/ux_design_3.jpg",
-                        alt: "UX Design 3",
-                    },
-                ],
-            },
-        ],
-    },
+    //         {
+    //             title: "UX Design 3",
+    //             description: "Placeholder description for this UX Design.",
+    //             media: [
+    //                 {
+    //                     type: "image",
+    //                     src: "/images/ux_design/ux_design_3.jpg",
+    //                     alt: "UX Design 3",
+    //                 },
+    //             ],
+    //         },
+    //     ],
+    // },
     // Emailers
     {
         name: "Emailers",
         slug: "emailers",
         description:
-            "Spatial and display concepts created to attract attention and strengthen brand presence.",
+            "Digitally crafted email campaigns designed to capture attention, communicate clearly, and drive engagement. Each piece blends compelling visuals with concise messaging to create memorable brand interactions in crowded inboxes.",
         items: [
             {
-                title: "Emailer 1",
-                description: "Placeholder description for this emailer.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/emailers/emailers_1.jpg",
-                        alt: "Emailer 1",
-                    },
-                ],
-            },
-            {
-                title: "Emailer 2",
-                description: "Placeholder description for this emailer.",
+                title: "Maxx Life Insurance Festive Campaign",
+                description: "Designed to be opened, read, and remembered.",
                 media: [
                     {
                         type: "image",
@@ -781,8 +762,19 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Emailer 3",
-                description: "Placeholder description for this emailer.",
+                title: "Maxx Life Insurance Festive Campaign",
+                description: "Designed to be opened, read, and remembered.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/emailers/emailers_1.jpg",
+                        alt: "Emailer 1",
+                    },
+                ],
+            },
+            {
+                title: "Kolors - Holi Emailer Campaign",
+                description: "Celebrating the festival, staying true to the brand.",
                 media: [
                     {
                         type: "image",
@@ -792,35 +784,35 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Emailer 4",
-                description: "Placeholder description for this emailer.",
+                title: "Christmas - Festive Cheer Campaign",
+                description: "Bringing festive joy to your inbox.",
                 media: [
                     {
                         type: "image",
                         src: "/images/emailers/emailers_4.jpg",
+                        alt: "Emailer 3",
+                    },
+                ],
+            },
+            {
+                title: "International Yoga Day - Mindful Living Campaign",
+                description: "Find your balance, embrace your calm.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/emailers/emailers_5.jpg",
                         alt: "Emailer 4",
                     },
                 ],
             },
             {
-                title: "Emailer 5",
-                description: "Placeholder description for this emailer.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/emailers/emailers_5.jpg",
-                        alt: "Emailer 5",
-                    },
-                ],
-            },
-            {
-                title: "Emailer 6",
-                description: "Placeholder description for this emailer.",
+                title: "Gudi Padwa - Cultural Celebration Campaign",
+                description: "Welcoming new beginnings with tradition and joy.",
                 media: [
                     {
                         type: "image",
                         src: "/images/emailers/emailers_6.jpg",
-                        alt: "Emailer 6",
+                        alt: "Emailer 5",
                     },
                 ],
             },
@@ -828,25 +820,14 @@ export const categories: PortfolioCategory[] = [
     },
     // Newspaper Ads
     {
-        name: "Newspaper Ads   ",
+        name: "Newspaper Ads",
         slug: "newspaper-ads",
         description:
-            "Spatial and display concepts created to attract attention and strengthen brand presence.",
+            "Print advertisements designed for high-impact communication in fast-scanning environments. Each piece balances strong visuals, clear hierarchy, and concise messaging to capture attention and drive response.",
         items: [
             {
-                title: "Newspaper Ad 1",
-                description: "Placeholder description for this newspaper ad.",
-                media: [
-                    {
-                        type: "image",
-                        src: "/images/newspaper_ads/newspaper_ads_1.jpg",
-                        alt: "Newspaper Ad 1",
-                    },
-                ],
-            },
-            {
-                title: "Newspaper Ad 2",
-                description: "Placeholder description for this newspaper ad.",
+                title: "Dr. Tvacha - Service Promotion Ads",
+                description: "Clarity that builds confidence.",
                 media: [
                     {
                         type: "image",
@@ -856,8 +837,19 @@ export const categories: PortfolioCategory[] = [
                 ],
             },
             {
-                title: "Newspaper Ad 3",
-                description: "Placeholder description for this newspaper ad.",
+                title: "Rang De India - Festive Print Campaign",
+                description: "Festive energy, captured in print.",
+                media: [
+                    {
+                        type: "image",
+                        src: "/images/newspaper_ads/newspaper_ads_1.jpg",
+                        alt: "Newspaper Ad 1",
+                    },
+                ],
+            },
+            {
+                title: "Dr. Tvacha - Awareness Print Campaign",
+                description: "Designed to be noticed, built to be remembered.",
                 media: [
                     {
                         type: "image",
