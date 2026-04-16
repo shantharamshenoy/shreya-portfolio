@@ -20,17 +20,17 @@ export default function ContactSection() {
 
           <div className="flex flex-wrap gap-4">
             <a
-              href="mailto:contact@shreyashenoy.com"
+              href="mailto:shreyakamath4@gmail.com"
               className="rounded-full bg-[#D4AF37] px-6 py-3 text-sm font-semibold text-[#2E1065] transition hover:bg-[#E6C76A] hover:-translate-y-0.5"
             >
               Send Mail
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/shreya-ravindra-shenoy-403889150/" target="_blank"
               className="rounded-full bg-[#D4AF37] px-6 py-3 text-sm font-semibold text-[#2E1065] transition hover:bg-[#E6C76A] hover:-translate-y-0.5"
             >
-              Instagram
+              LinkedIn
             </a>
           </div>
         </div>

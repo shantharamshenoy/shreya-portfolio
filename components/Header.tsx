@@ -16,6 +16,9 @@ export default function Header() {
           <a href="#about" className="transition hover:text-[#D4AF37]">
             About
           </a>
+          <a href="#case-studies" className="transition hover:text-[#D4AF37]">
+            Case Studies
+          </a>
           <a href="#contact" className="transition hover:text-[#D4AF37]">
             Contact
           </a>

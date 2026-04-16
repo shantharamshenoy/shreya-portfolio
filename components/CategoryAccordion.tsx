@@ -29,14 +29,12 @@ export default function CategoryAccordion() {
             </p>
 
             <h2 className="mt-4 text-3xl font-bold leading-tight text-[#F5EFE2] lg:text-5xl">
-              Explore the work category by category.
+              Design Work That Solves, Communicates, and Connects
             </h2>
           </div>
 
           <p className="max-w-xl text-base leading-8 text-[#E8E1D1]/75">
-            Each category expands to reveal a gallery-style preview. These are
-            placeholder-ready sections for now, so final images and descriptions
-            can be added smoothly later.
+            A curated selection of projects across branding, packaging, and digital design - each crafted with a focus on clarity, impact, and real-world application.
           </p>
         </div>
 
@@ -51,7 +49,7 @@ export default function CategoryAccordion() {
                 <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
                   <div className="max-w-2xl">
                     <div className="flex items-center gap-3">
-                      <span className="inline-flex h-3 w-3 rounded-full bg-[#51CED9]" />
+                      <span className="inline-flex h-3 w-3 rounded-full bg-[#5B21B6]" />
                       <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#5B21B6]">
                         {String(index + 1).padStart(2, "0")}
                       </p>
@@ -84,12 +82,12 @@ export default function CategoryAccordion() {
                   </p>
                 </div>
 
-                <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-2">
                   {category.items.map((item, i) => {
                     // const previewImage = item.images[0];
 
                     return (
-                      <button
+                      <div
                         key={`${category.slug}-${i}`}
                         // type="button"
                         onClick={() => setSelectedItem(item)}
@@ -99,12 +97,12 @@ export default function CategoryAccordion() {
                           <ImageCarousel
                             media={item.media}
                             altPrefix={item.title}
-                            className="flex h-72 items-center justify-center"
+                            className="flex h-42 items-center justify-center"
                             imageClassName="h-full w-full object-contain"
                           />
                         </div>
 
-                        <div className="space-y-2 px-4 py-4">
+                        <div className="space-y-1 px-4 py-4">
                           <p className="text-sm font-semibold text-[#2E1065]">
                             {item.title}
                           </p>
@@ -119,7 +117,7 @@ export default function CategoryAccordion() {
                             </p>
                           )}
                         </div>
-                      </button>
+                      </div>
                     );
                   })}
                 </div>

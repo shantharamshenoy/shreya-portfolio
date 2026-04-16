@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import About from "@/components/About"; 
 import CategoryAccordion from "@/components/CategoryAccordion";
 import Contact from "@/components/Contact";
+import CaseStudiesSection from "@/components/CaseStudiesSection";
 // import { categories } from "@/content/categories";  
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
       <HeroSection />
       <About />
       <CategoryAccordion />
+      <CaseStudiesSection />
       <Contact /> 
     </main>
   );
