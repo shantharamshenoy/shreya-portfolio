@@ -9,12 +9,11 @@ export default function ContactSection() {
             </p>
 
             <h2 className="mt-4 text-3xl font-bold leading-tight text-[#F5D77A] lg:text-5xl">
-              Let's create something memorable.
+              Let’s create something meaningful together.
             </h2>
 
             <p className="mt-4 max-w-xl text-base leading-8 text-[#F3E7C2]/80">
-              This section can later be updated with final contact details, social
-              links, or a contact form once the portfolio content is ready to go live.
+              For project-related discussions or design requirements, feel free to reach out. I’m happy to connect and understand the scope of work. You can reach me via email or LinkedIn.
             </p>
           </div>
 
